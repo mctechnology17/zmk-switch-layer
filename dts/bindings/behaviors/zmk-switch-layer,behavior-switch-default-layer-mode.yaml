@@ -1,0 +1,16 @@
+# Copyright (c) 2026 Marcos Chow Castro
+# SPDX-License-Identifier: MIT
+
+description: Persistently switch the default layer between two configured layers
+
+compatible: "zmk-switch-layer,behavior-switch-default-layer-mode"
+
+include: one_param.yaml
+
+properties:
+  source-layer:
+    type: int
+    required: true
+  target-layer:
+    type: int
+    required: true

@@ -1,0 +1,16 @@
+# Copyright (c) 2026 Marcos Chow Castro
+# SPDX-License-Identifier: MIT
+
+description: Persistently redirect one layer to another while the source layer is active
+
+compatible: "zmk-switch-layer,behavior-switch-layer-mode"
+
+include: one_param.yaml
+
+properties:
+  source-layer:
+    type: int
+    required: true
+  target-layer:
+    type: int
+    required: true
