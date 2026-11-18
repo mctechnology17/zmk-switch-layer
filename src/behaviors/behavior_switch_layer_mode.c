@@ -53,7 +53,7 @@ static int switch_layer_mode_apply(void) {
     const bool want_target = source_active && switch_layer_mode == SWITCH_LAYER_MODE_TARGET;
 
     if (want_target && !target_active) {
-        int ret = zmk_keymap_layer_activate(switch_layer_mode_cfg.target_layer);
+        int ret = zmk_keymap_layer_activate(switch_layer_mode_cfg.target_layer, false);
         if (ret < 0) {
             return ret;
         }
@@ -62,7 +62,7 @@ static int switch_layer_mode_apply(void) {
     }
 
     if (!want_target && target_activated_by_switch_layer && target_active) {
-        int ret = zmk_keymap_layer_deactivate(switch_layer_mode_cfg.target_layer);
+        int ret = zmk_keymap_layer_deactivate(switch_layer_mode_cfg.target_layer, false);
         if (ret < 0) {
             return ret;
         }

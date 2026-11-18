@@ -49,7 +49,7 @@ static int switch_default_layer_mode_apply(void) {
                         ? switch_default_layer_mode_cfg.target_layer
                         : switch_default_layer_mode_cfg.source_layer;
 
-    return zmk_keymap_layer_to(layer);
+    return zmk_keymap_layer_to(layer, false);
 }
 
 static int switch_default_layer_mode_set(const char *name, size_t len, settings_read_cb read_cb,
