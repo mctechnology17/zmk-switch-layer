@@ -1,5 +1,16 @@
 # zmk-switch-layer
 
+<!-- mc-follow-top:start -->
+<div align="center">
+
+  <a href="https://youtube.com/@mctechnology17"><img align="center" alt="MC Technology | YouTube" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/youtube.png" /></a>
+  <a href="https://www.instagram.com/mctechnology17/"><img align="center" alt="MC Technology | Instagram" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/instagram.png" /></a>
+  <a href="https://www.facebook.com/mctechnology17/"><img align="center" alt="MC Technology | Facebook" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/facebook.png" /></a>
+  <a href="https://www.tiktok.com/@mctechnology17"><img align="center" alt="MC Technology | TikTok" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/tiktok.png" /></a>
+
+</div>
+<!-- mc-follow-top:end -->
+
 ZMK module to persistently switch layers. There is no need for a physical switch and no need to flash again (for example like the logitech keyboards that activate the macos and windows layer), the change always remains active, after reboot, after flash and after power off. The keyboard can toggle the base layer other any layer while using the keyboard.
 
 It includes two independent behaviors:
@@ -200,3 +211,17 @@ elpekenin's `default-layer` behavior changes the persistent default layer.
 
 `switch-default-layer-mode` does change the persistent default layer, but it stays separate so it can be used or removed without affecting `switch-layer-mode`.
 
+<!-- mc-follow:start -->
+## Support this project
+
+This is a personal project that I build in my free time. If it is useful to
+you, the best way to help is to follow and subscribe:
+
+[YouTube](https://youtube.com/@mctechnology17) · [Instagram](https://www.instagram.com/mctechnology17/) · [Facebook](https://www.facebook.com/mctechnology17/) · [TikTok](https://www.tiktok.com/@mctechnology17)
+
+I make videos about split keyboards, ZMK and open source (in Spanish, long
+videos with English subtitles). Every follow and every subscription helps me a
+lot and keeps me motivated to bring more to the open source community.
+
+Thank you for every report and every issue: they make these projects better.
+<!-- mc-follow:end -->
